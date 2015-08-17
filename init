@@ -1,0 +1,6 @@
+#!/usr/bin/env php
+<?php
+
+$dest = str_replace('\\', '/', __DIR__);
+
+include(__DIR__ . '/vendor/hiqdev/hipanel-core/init');

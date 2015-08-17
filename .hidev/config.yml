@@ -1,0 +1,13 @@
+package:
+    name:           hipanel
+    label:          AdvancedHostersHiPanel
+    title:          AdvancedHosters HiPanel
+    type:           project
+    homepage:       https://advancedhosters.com/
+    keywords:       advanced hosters, hipanel, control panel, hosting, domains
+    year:           2015
+    description:    This is AdvancedHosters realization of HiPanel
+
+require:
+    advancedhosters/hidev-config: "*"
+    hiqdev/hidev-config-php:      "*"
