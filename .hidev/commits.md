@@ -3,6 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added: gitignore for yii
+    - f821c10 2015-08-18 + gitignore yii (sol@hiqdev.com)
 - Added proper gitignores for runtime, web and assets
     - 18d7a61 2015-08-18 improved gitignores to not ignore .gitignore (sol@hiqdev.com)
     - 6aec721 2015-08-18 + necessary empty dirs for frontend and backend web (sol@hiqdev.com)

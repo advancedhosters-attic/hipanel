@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Added: gitignore for yii
 - Added proper gitignores for runtime, web and assets
 - Removed domain module
 - Added favicon.ico
