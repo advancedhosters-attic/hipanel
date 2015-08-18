@@ -3,6 +3,10 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added proper gitignores for runtime, web and assets
+    - 18d7a61 2015-08-18 improved gitignores to not ignore .gitignore (sol@hiqdev.com)
+    - 6aec721 2015-08-18 + necessary empty dirs for frontend and backend web (sol@hiqdev.com)
+    - 6b3fbc3 2015-08-18 + necessary empty dirs for runtime and assets (sol@hiqdev.com)
 - Removed domain module
     - f4c06c7 2015-08-18 - domain module (sol@hiqdev.com)
 - Added favicon.ico
