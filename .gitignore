@@ -19,3 +19,6 @@ nbproject
 .settings
 Thumbs.db
 .DS_Store
+
+# ignore yii for the moment
+yii
