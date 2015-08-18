@@ -3,6 +3,9 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added orgName and orgUrl params
+    - 964b341 2015-08-18 php-cs-fixed (sol@hiqdev.com)
+    - 2c3c420 2015-08-18 + orgName and orgUrl params (sol@hiqdev.com)
 - Added: gitignore for yii
     - f821c10 2015-08-18 + gitignore yii (sol@hiqdev.com)
 - Added proper gitignores for runtime, web and assets
