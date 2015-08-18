@@ -3,6 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Removed domain module
+    - f4c06c7 2015-08-18 - domain module (sol@hiqdev.com)
 - Added favicon.ico
     - 1a8cd5c 2015-08-18 + favicon (sol@hiqdev.com)
 - Fixed composer.json requires for theme and assets
