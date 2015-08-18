@@ -21,6 +21,6 @@ php composer.phar create-project "advancedhosters/hipanel:*" directory2install
 
 ## Licence
 
-[BSD-3-Clause](http://choosealicense.com/licenses/bsd-3-clause)
+[No license](http://choosealicense.com/licenses/no-license)
 
 Copyright © 2015, AdvancedHosters (https://advancedhosters.com/)
