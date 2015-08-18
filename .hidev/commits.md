@@ -3,6 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added favicon.ico
+    - 1a8cd5c 2015-08-18 + favicon (sol@hiqdev.com)
 - Fixed composer.json requires for theme and assets
     - 4a45c43 2015-08-18 fixed license to No license (sol@hiqdev.com)
     - b50eeec 2015-08-18 fixed requires fr theme and assets (sol@hiqdev.com)

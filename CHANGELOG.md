@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Added favicon.ico
 - Fixed composer.json requires for theme and assets
 - Inited
 
