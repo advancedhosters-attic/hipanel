@@ -1,12 +1,12 @@
 <?php
 
 /*
- * AHnames HiPanel
+ * AdvancedHosters HiPanel
  *
- * @link      https://ahnames.com/
+ * @link      https://advancedhosters.com/
  * @package   hipanel
- * @license   BSD-3-Clause
- * @copyright Copyright (c) 2015, AHnames (https://ahnames.com/)
+ * @license   No license
+ * @copyright Copyright (c) 2015, AdvancedHosters (https://advancedhosters.com/)
  */
 
 /**
