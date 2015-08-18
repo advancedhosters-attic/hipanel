@@ -10,6 +10,8 @@
  */
 
 return [
-    'supportEmail' => 'support@ahnames.com',
-    'adminEmail'   => 'support@ahnames.com',
+    'orgName'      => 'AdvancedHosters',
+    'orgUrl'       => 'https://advancedhosters.com/',
+    'supportEmail' => 'support@advancedhosters.com',
+    'adminEmail'   => 'support@advancedhosters.com',
 ];
