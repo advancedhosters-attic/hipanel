@@ -10,6 +10,7 @@ advancedhosters/hipanel commits history
     - ec7fe80 2015-08-23 - excessive gitignores (sol@hiqdev.com)
     - 22c631b 2015-08-23 - excessive gitignores at configs (sol@hiqdev.com)
 - Added orgName and orgUrl params
+    - fb67e91 2015-08-23 + .php_cs (sol@hiqdev.com)
     - 964b341 2015-08-18 php-cs-fixed (sol@hiqdev.com)
     - 2c3c420 2015-08-18 + orgName and orgUrl params (sol@hiqdev.com)
 - Added: gitignore for yii
