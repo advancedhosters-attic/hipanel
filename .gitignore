@@ -4,9 +4,6 @@ vendor
 # composer lock files
 composer.lock
 
-# runtime dir
-runtime
-
 # hidev composer.json
 .hidev/composer.json
 
@@ -22,3 +19,5 @@ Thumbs.db
 
 # ignore yii for the moment
 yii
+*/web/index*.php
+*/config/*-local*
