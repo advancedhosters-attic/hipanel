@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Removed excessive .gitignores
 - Added orgName and orgUrl params
 - Added: gitignore for yii
 - Added proper gitignores for runtime, web and assets

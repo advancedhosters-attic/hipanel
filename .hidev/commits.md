@@ -3,6 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Removed excessive .gitignores
+    - 22c631b 2015-08-23 - excessive gitignores at configs (sol@hiqdev.com)
 - Added orgName and orgUrl params
     - 964b341 2015-08-18 php-cs-fixed (sol@hiqdev.com)
     - 2c3c420 2015-08-18 + orgName and orgUrl params (sol@hiqdev.com)
