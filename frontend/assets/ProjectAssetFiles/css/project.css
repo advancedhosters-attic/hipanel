@@ -1,6 +1,7 @@
 .logo-lg {
-    background-position: 9px 5px;
+    background-position: 5px 6px;
 }
 .logo-mini {
-    background-position: 6px 5px;
+    background-position: 2px 6px;
+    background-size: 300%;
 }
