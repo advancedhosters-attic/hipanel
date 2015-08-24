@@ -3,7 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
-- Added ProjectAsset instead of hipanel-theme-adminlte
+- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
+    - 464eaf2 2015-08-24 + css for logo (sol@hiqdev.com)
     - d9ec49d 2015-08-23 - require */hipane-theme-adminlte (sol@hiqdev.com)
     - c173e9d 2015-08-23 + ProjectAsset (sol@hiqdev.com)
 - Added favicon.ico at frontend and backend

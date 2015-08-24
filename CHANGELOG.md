@@ -3,7 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
-- Added ProjectAsset instead of hipanel-theme-adminlte
+- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
 - Added favicon.ico at frontend and backend
 - Removed excessive .gitignores
 - Added orgName and orgUrl params
