@@ -3,6 +3,9 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added ProjectAsset instead of hipanel-theme-adminlte
+    - d9ec49d 2015-08-23 - require */hipane-theme-adminlte (sol@hiqdev.com)
+    - c173e9d 2015-08-23 + ProjectAsset (sol@hiqdev.com)
 - Added favicon.ico at frontend and backend
     - 1a8cd5c 2015-08-18 + favicon (sol@hiqdev.com)
     - 0d2f1f2 2015-08-23 + favicon at backend (sol@hiqdev.com)
