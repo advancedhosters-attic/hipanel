@@ -3,6 +3,8 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
+    - bd52636 2015-08-31 used params.php from yii2-asset-advancedhosters for common/config/params.php (sol@hiqdev.com)
 - Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
     - 464eaf2 2015-08-24 + css for logo (sol@hiqdev.com)
     - d9ec49d 2015-08-23 - require */hipane-theme-adminlte (sol@hiqdev.com)
