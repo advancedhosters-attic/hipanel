@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
 - Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
 - Added favicon.ico at frontend and backend
 - Removed excessive .gitignores
