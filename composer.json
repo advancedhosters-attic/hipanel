@@ -26,6 +26,7 @@
     ],
     "require": {
         "php": "~5.4",
+        "advancedhosters/yii2-asset-advancedhosters": "*@dev",
         "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
         "hiqdev/hipanel-module-client": "*@dev",
@@ -45,7 +46,6 @@
         "hiqdev/yii2-menumanager": "*@dev",
         "hiqdev/yii2-thememanager": "*@dev",
         "hiqdev/yii2-pluginmanager": "*@dev",
-        "advancedhosters/yii2-asset-advancedhosters": "*@dev",
         "kartik-v/yii2-builder": "dev-master",
         "kartik-v/yii2-editable": "*@dev",
         "kartik-v/yii2-mpdf": "*@dev",
