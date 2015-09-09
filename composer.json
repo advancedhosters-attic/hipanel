@@ -34,6 +34,7 @@
         "hiqdev/hipanel-module-server": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
         "hiqdev/hipanel-module-hosting": "*@dev",
+        "hiqdev/hipanel-module-stock": "*@dev",
         "hiqdev/yii2-theme-adminlte": "*@dev",
         "hiqdev/yii2-x-editable": "*@dev",
         "hiqdev/yii2-bootstrap-switch": "*@dev",
