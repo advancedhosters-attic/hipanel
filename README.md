@@ -5,6 +5,7 @@ This is AdvancedHosters realization of HiPanel
 
 [![Latest Stable Version](https://poser.pugx.org/advancedhosters/hipanel/v/stable.png)](https://packagist.org/packages/advancedhosters/hipanel)
 [![Total Downloads](https://poser.pugx.org/advancedhosters/hipanel/downloads.png)](https://packagist.org/packages/advancedhosters/hipanel)
+[![Dependency Status](https://www.versioneye.com/php/advancedhosters:hipanel/dev-master/badge.svg)](https://www.versioneye.com/php/advancedhosters:hipanel/dev-master)
 
 ## Installation
 
