@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Added stock module
 - Fixed composer.json requires
 - Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
 - Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
