@@ -6,6 +6,7 @@ advancedhosters/hipanel commits history
 - Added stock module
     - 2e635ae 2015-09-09 + stock module (sol@hiqdev.com)
 - Fixed composer.json requires
+    - 9cac0f7 2015-09-21 - require 2amigos/yii2-editable-widget (sol@hiqdev.com)
     - 4a45c43 2015-08-18 fixed license to No license (sol@hiqdev.com)
     - b50eeec 2015-08-18 fixed requires fr theme and assets (sol@hiqdev.com)
     - af46e7b 2015-09-09 fixed requires in composer.json (sol@hiqdev.com)
