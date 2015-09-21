@@ -50,8 +50,7 @@
         "kartik-v/yii2-builder": "dev-master",
         "kartik-v/yii2-editable": "*@dev",
         "kartik-v/yii2-mpdf": "*@dev",
-        "michelf/php-smartypants": "1.6.*@dev",
-        "2amigos/yii2-editable-widget": "dev-master"
+        "michelf/php-smartypants": "1.6.*@dev"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
