@@ -26,6 +26,7 @@
     ],
     "require": {
         "php": ">=5.4",
+        "yiisoft/yii2": "*@dev",
         "advancedhosters/yii2-asset-advancedhosters": "*@dev",
         "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
