@@ -24,6 +24,12 @@
             "homepage": "https://hipanel.com/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/hiqdev/yii2-bootstrap-daterangepicker"
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "yiisoft/yii2": "*@dev",
