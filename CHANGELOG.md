@@ -3,6 +3,7 @@ advancedhosters/hipanel changelog
 
 ## Under development
 
+- Changed: redone to composer-config-plugin
 - Added stock module
 - Fixed composer.json requires
 - Added use of params.php from yii2-asset-advancedhosters for common/config/params.php

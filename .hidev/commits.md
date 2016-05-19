@@ -3,6 +3,15 @@ advancedhosters/hipanel commits history
 
 ## Under development
 
+- Changed: redone to composer-config-plugin
+    - 0f958bf 2016-05-19 csfixed (sol@hiqdev.com)
+    - 29363be 2016-05-19 rehideved (sol@hiqdev.com)
+    - 243a7d1 2016-05-19 fixing dependencies (sol@hiqdev.com)
+    - 88cd1fa 2016-05-19 removed common, console, frontend, backend (sol@hiqdev.com)
+    - dfe82db 2016-02-29 Temporary daterangepicker dependency removed (d.naumenko.a@gmail.com)
+    - cf74a5e 2016-02-24 Added temporary daterangepicker dependency (d.naumenko.a@gmail.com)
+    - b8e2d3c 2016-02-02 composer.json - added yii2 unstable dependency (d.naumenko.a@gmail.com)
+    - 30481f0 2015-12-09 Updated composer.json (d.naumenko.a@gmail.com)
 - Added stock module
     - 2e635ae 2015-09-09 + stock module (sol@hiqdev.com)
 - Fixed composer.json requires
@@ -12,12 +21,12 @@ advancedhosters/hipanel commits history
     - af46e7b 2015-09-09 fixed requires in composer.json (sol@hiqdev.com)
 - Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
     - bd52636 2015-08-31 used params.php from yii2-asset-advancedhosters for common/config/params.php (sol@hiqdev.com)
-    - fb67e91 2015-08-23 + .php_cs (sol@hiqdev.com)
+    - fb67e91 2015-08-23 + `.php_cs` (sol@hiqdev.com)
     - 964b341 2015-08-18 php-cs-fixed (sol@hiqdev.com)
     - 2c3c420 2015-08-18 + orgName and orgUrl params (sol@hiqdev.com)
 - Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
     - 464eaf2 2015-08-24 + css for logo (sol@hiqdev.com)
-    - d9ec49d 2015-08-23 - require */hipane-theme-adminlte (sol@hiqdev.com)
+    - d9ec49d 2015-08-23 - require `*/hipane-theme-adminlte` (sol@hiqdev.com)
     - c173e9d 2015-08-23 + ProjectAsset (sol@hiqdev.com)
 - Added favicon.ico at frontend and backend
     - 1a8cd5c 2015-08-18 + favicon (sol@hiqdev.com)
