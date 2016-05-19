@@ -1,13 +1,12 @@
 package:
+    type:           yii2-extension
     name:           hipanel
-    label:          AdvancedHostersHiPanel
-    title:          AdvancedHosters HiPanel
-    type:           project
+    title:          AdvancedHosters implementation of HiPanel
+    headline:       AdvancedHosters HiPanel
     homepage:       https://advancedhosters.com/
     keywords:       advanced hosters, hipanel, control panel, hosting, domains
-    year:           2015
-    description:    This is AdvancedHosters realization of HiPanel
+    namespace:      adavancedhosters\hipanel
+    description:    |
+        [HiPanel](http://hipanel.com) is next generation control panel for hosting, domains and more.
 
-require:
-    advancedhosters/hidev-config: "*"
-    hiqdev/hidev-config-php:      "*"
+        This package is HiPanel build for [AHnames](https://ahnames.com) domain registrator.
