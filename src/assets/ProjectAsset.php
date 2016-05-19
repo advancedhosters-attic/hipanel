@@ -1,21 +1,19 @@
 <?php
 
 /*
- * AHnames HiPanel
+ * AdvancedHosters implementation of HiPanel
  *
- * @link      https://ahnames.com/
+ * @link      https://advancedhosters.com/
  * @package   hipanel
  * @license   No license
- * @copyright Copyright (c) 2015, AHnames (https://ahnames.com/)
+ * @copyright Copyright (c) 2015-2016, AdvancedHosters (https://advancedhosters.com/)
  */
 
-namespace project\frontend\assets;
+namespace advancedhosters\hipanel\assets;
 
-use yii\web\AssetBundle;
-
-class ProjectAsset extends AssetBundle
+class ProjectAsset extends \yii\web\AssetBundle
 {
-    public $sourcePath = '@project/frontend/assets/ProjectAssetFiles';
+    public $sourcePath = '@advancedhosters/hipanel/assets/ProjectAssetFiles';
 
     public $css = [
         'css/project.css',
