@@ -13,7 +13,7 @@ return [
     'components' => [
         'themeManager' => [
             'assets' => [
-                'project\frontend\assets\ProjectAsset',
+                'advancedhosters\hipanel\assets\ProjectAsset',
                 'advancedhosters\assets\advancedhosters\AdvancedhostersAsset',
             ],
         ],

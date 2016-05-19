@@ -61,8 +61,7 @@
     },
     "autoload": {
         "psr-4": {
-            "adavancedhosters\\hipanel\\": "src",
-            "advancedhosters\\hipanel\\": ""
+            "adavancedhosters\\hipanel\\": "src"
         }
     },
     "extra": {
