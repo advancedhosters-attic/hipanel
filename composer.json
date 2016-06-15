@@ -70,18 +70,6 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "tysonmatanich/elementQuery",
-                "version": "0.1",
-                "source": {
-                    "type": "git",
-                    "url": "git@github.com:tysonmatanich/elementQuery.git",
-                    "reference": "master"
-                }
-            }
         }
     ]
 }
