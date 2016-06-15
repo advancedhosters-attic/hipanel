@@ -53,7 +53,7 @@
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
-        "advancedhosters/hidev-vendor": "<2.0 || dev-master"
+        "advancedhosters/hidev-advancedhosters": "<2.0 || dev-master"
     },
     "autoload": {
         "psr-4": {
