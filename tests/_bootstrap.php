@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * AdvancedHosters implementation of HiPanel
+ *
+ * @link      https://advancedhosters.com/
+ * @package   hipanel
+ * @license   proprietary
+ * @copyright Copyright (c) 2015-2016, AdvancedHosters (https://advancedhosters.com/)
+ */
+
 error_reporting(E_ALL & ~E_NOTICE);
 
 $bootstrap = __DIR__ . '/../src/_bootstrap.php';
