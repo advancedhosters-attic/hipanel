@@ -35,6 +35,7 @@
         "hiqdev/hipanel-module-finance": "*@dev",
         "hiqdev/hipanel-module-hosting": "*@dev",
         "hiqdev/hipanel-module-stock": "*@dev",
+        "hiqdev/php-merchant": "*@dev",
         "hiqdev/yii2-theme-adminlte": "*@dev",
         "hiqdev/yii2-x-editable": "*@dev",
         "hiqdev/yii2-bootstrap-switch": "*@dev",
@@ -48,12 +49,11 @@
         "hiqdev/yii2-collection": "*@dev",
         "hiqdev/yii2-menumanager": "*@dev",
         "hiqdev/yii2-thememanager": "*@dev",
-        "hiqdev/php-merchant": "*@dev",
         "michelf/php-smartypants": "1.6.*@dev"
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
-        "advancedhosters/hidev-advancedhosters": "<2.0 || dev-master"
+        "advancedhosters/hidev-advancedhosters": "<2.0"
     },
     "autoload": {
         "psr-4": {
