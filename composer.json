@@ -10,7 +10,7 @@
         "domains"
     ],
     "homepage": "https://advancedhosters.com/",
-    "license": "No license",
+    "license": "proprietary",
     "support": {
         "email": "support@advancedhosters.com",
         "source": "https://github.com/advancedhosters/hipanel",
@@ -57,6 +57,7 @@
     },
     "autoload": {
         "psr-4": {
+            "adavancedhosters\\hipanel\\": "src",
             "advancedhosters\\hipanel\\": "src"
         }
     },

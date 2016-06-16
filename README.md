@@ -34,7 +34,7 @@ to the require section of your composer.json.
 
 ## License
 
-This project is released under the terms of the No license [license](LICENSE).
-Read more [here](http://choosealicense.com/licenses/no-license).
+This project is released under the terms of the proprietary [license](LICENSE).
+Read more [here](https://en.wikipedia.org/wiki/Proprietary_software).
 
 Copyright © 2015-2016, AdvancedHosters (https://advancedhosters.com/)
