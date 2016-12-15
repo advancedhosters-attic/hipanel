@@ -33,7 +33,7 @@
         "hiqdev/hipanel-module-server": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
         "hiqdev/hipanel-module-hosting": "*@dev",
-        "hiqdev/hipanel-module-documents": "*@dev",
+        "hiqdev/hipanel-module-document": "*@dev",
         "hiqdev/hipanel-module-stock": "*@dev",
         "hiqdev/hisite-module-news": "*@dev",
         "hiqdev/php-merchant": "*@dev",
