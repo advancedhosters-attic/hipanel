@@ -25,7 +25,6 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "^2.0",
         "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
         "hiqdev/hipanel-module-client": "*@dev",
@@ -36,20 +35,8 @@
         "hiqdev/hipanel-module-document": "*@dev",
         "hiqdev/hipanel-module-stock": "*@dev",
         "hiqdev/hipanel-module-mailing": "*@dev",
+        "hiqdev/hipanel-mrdp": "*@dev",
         "hiqdev/hisite-module-news": "*@dev",
-        "hiqdev/php-merchant": "*@dev",
-        "hiqdev/yii2-theme-adminlte": "*@dev",
-        "hiqdev/yii2-x-editable": "*@dev",
-        "hiqdev/yii2-bootstrap-switch": "*@dev",
-        "hiqdev/yii2-asset-hipanel": "*@dev",
-        "hiqdev/yii2-hiam-authclient": "*@dev",
-        "hiqdev/yii2-hiart": "*@dev",
-        "hiqdev/yii2-cart": "*@dev",
-        "hiqdev/yii2-combo": "*@dev",
-        "hiqdev/yii2-higrid": "*@dev",
-        "hiqdev/yii2-merchant": "*@dev",
-        "hiqdev/yii2-menumanager": "*@dev",
-        "hiqdev/yii2-thememanager": "*@dev",
         "hiqdev/omnipay-ecoin": "*@dev",
         "hiqdev/omnipay-epayments": "*@dev",
         "hiqdev/omnipay-epayservice": "*@dev",
@@ -61,7 +48,7 @@
         "hiqdev/omnipay-paypal": "*@dev",
         "hiqdev/omnipay-yandexmoney": "*@dev",
         "dercoder/omnipay-webmoney": "*@dev",
-        "advancedhosters/yii2-asset-advancedhosters": "*@dev"
+        "hiqdev/yii2-theme-adminlte": "<2.0 || dev-master"
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
