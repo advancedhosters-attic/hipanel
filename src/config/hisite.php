@@ -9,13 +9,4 @@
  * @copyright Copyright (c) 2015-2016, AdvancedHosters (https://advancedhosters.com/)
  */
 
-return [
-    'components' => [
-        'themeManager' => [
-            'assets' => [
-                'advancedhosters\hipanel\assets\ProjectAsset',
-                'advancedhosters\assets\advancedhosters\AdvancedhostersAsset',
-            ],
-        ],
-    ],
-];
+return [];
