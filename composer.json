@@ -37,17 +37,6 @@
         "hiqdev/hipanel-module-mailing": "*@dev",
         "hiqdev/hipanel-mrdp": "*@dev",
         "hiqdev/hisite-module-news": "*@dev",
-        "hiqdev/omnipay-ecoin": "*@dev",
-        "hiqdev/omnipay-epayments": "*@dev",
-        "hiqdev/omnipay-epayservice": "*@dev",
-        "hiqdev/omnipay-interkassa": "*@dev",
-        "hiqdev/omnipay-robokassa": "*@dev",
-        "hiqdev/omnipay-okpay": "*@dev",
-        "hiqdev/omnipay-qiwi": "*@dev",
-        "hiqdev/omnipay-paxum": "*@dev",
-        "hiqdev/omnipay-paypal": "*@dev",
-        "hiqdev/omnipay-yandexmoney": "*@dev",
-        "dercoder/omnipay-webmoney": "*@dev",
         "hiqdev/yii2-theme-adminlte": "<2.0 || dev-master"
     },
     "require-dev": {
