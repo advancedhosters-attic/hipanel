@@ -9,4 +9,10 @@
  * @copyright Copyright (c) 2015-2016, AdvancedHosters (https://advancedhosters.com/)
  */
 
-return [];
+return [
+    'container' => [
+        'definitions' => [
+            \hipanel\modules\finance\logic\ServerTariffCalculatorInterface::class => \advancedhosters\hipanel\cart\ServerTariffCalculator::class
+        ]
+    ]
+];
