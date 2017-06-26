@@ -6,6 +6,7 @@ use hipanel\modules\finance\cart\Calculation;
 use hipanel\modules\finance\logic\ServerTariffCalculatorInterface;
 use hipanel\modules\finance\models\Tariff;
 use yii\base\InvalidParamException;
+use yii\base\NotSupportedException;
 
 class ServerTariffCalculator implements ServerTariffCalculatorInterface
 {
@@ -34,7 +35,7 @@ class ServerTariffCalculator implements ServerTariffCalculatorInterface
      */
     private function createCalculationFromTariff($tariff)
     {
-        $value = $tariff->getResourceByType('monthly')->price;
+        $value = floatval($tariff->getResourceByType('monthly')->price);
 
         $query = Calculation::find()->joinWith(['value'])->indexBy('calculation_id');
         $query->prepare();
@@ -73,6 +74,11 @@ class ServerTariffCalculator implements ServerTariffCalculatorInterface
      */
     public function getCalculations()
     {
+        $result = [];
+        foreach ($this->tariffs as $tariff) {
+            $result[] = $this->createCalculationFromTariff($tariff);
+        }
 
+        return $result;
     }
 }

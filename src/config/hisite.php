@@ -12,7 +12,10 @@
 return [
     'container' => [
         'definitions' => [
-            \hipanel\modules\finance\logic\ServerTariffCalculatorInterface::class => \advancedhosters\hipanel\cart\ServerTariffCalculator::class
+            \hipanel\modules\finance\logic\ServerTariffCalculatorInterface::class => \advancedhosters\hipanel\cart\ServerTariffCalculator::class,
+        ],
+        'singletons' => [
+            \hipanel\modules\finance\models\ServerResourceTypesProviderInterface::class => \advancedhosters\hipanel\server\ServerResourceTypesProvider::class
         ]
     ]
 ];
