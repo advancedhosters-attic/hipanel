@@ -1,13 +1,13 @@
 <?php
-
-/*
+/**
  * AdvancedHosters implementation of HiPanel
  *
  * @link      https://advancedhosters.com/
  * @package   hipanel
  * @license   proprietary
- * @copyright Copyright (c) 2015-2016, AdvancedHosters (https://advancedhosters.com/)
+ * @copyright Copyright (c) 2015-2017, AdvancedHosters (https://advancedhosters.com/)
  */
+
 
 error_reporting(E_ALL & ~E_NOTICE);
 

@@ -1,4 +1,12 @@
 <?php
+/**
+ * AdvancedHosters implementation of HiPanel
+ *
+ * @link      https://advancedhosters.com/
+ * @package   hipanel
+ * @license   proprietary
+ * @copyright Copyright (c) 2015-2017, AdvancedHosters (https://advancedhosters.com/)
+ */
 
 namespace advancedhosters\hipanel\server;
 
@@ -6,11 +14,10 @@ use hipanel\modules\finance\models\ServerResource;
 use hipanel\modules\finance\models\ServerResourceTypesProviderInterface;
 use Yii;
 
-class ServerResourceTypesProvider 
+class ServerResourceTypesProvider
 {
     public function getTypes()
     {
-
         return [
             ServerResource::TYPE_MONTHLY => Yii::t('hipanel:finance:tariff', 'Monthly fee'),
             ServerResource::TYPE_SUPPORT_TIME => Yii::t('hipanel:finance:tariff', 'Support time'),

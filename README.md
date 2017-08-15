@@ -1,5 +1,4 @@
-AdvancedHosters HiPanel
-=======================
+# AdvancedHosters HiPanel
 
 **AdvancedHosters implementation of HiPanel**
 
@@ -10,9 +9,12 @@ AdvancedHosters HiPanel
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/advancedhosters/hipanel.svg)](https://scrutinizer-ci.com/g/advancedhosters/hipanel/)
 [![Dependency Status](https://www.versioneye.com/php/advancedhosters:hipanel/dev-master/badge.svg)](https://www.versioneye.com/php/advancedhosters:hipanel/dev-master)
 
-[HiPanel](http://hipanel.com) is next generation control panel for hosting, domains and more.
+[HiPanel] is next generation control panel for hosting, domains and more.
 
-This package is HiPanel build for [AHnames](https://ahnames.com) domain registrator.
+This package is HiPanel build for [AHnames] domain registrator.
+
+[HiPanel]: http://hipanel.com
+[AHnames]: https://ahnames.com
 
 ## Installation
 
@@ -37,4 +39,4 @@ to the require section of your composer.json.
 This project is released under the terms of the proprietary [license](LICENSE).
 Read more [here](https://en.wikipedia.org/wiki/Proprietary_software).
 
-Copyright © 2015-2016, AdvancedHosters (https://advancedhosters.com/)
+Copyright © 2015-2017, AdvancedHosters (https://advancedhosters.com/)

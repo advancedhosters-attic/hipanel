@@ -22,6 +22,11 @@
             "name": "Andrii Vasyliev",
             "email": "sol@hiqdev.com",
             "homepage": "https://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
         }
     ],
     "require": {
