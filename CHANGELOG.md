@@ -1,19 +1,19 @@
-advancedhosters/hipanel changelog
----------------------------------
+# advancedhosters/hipanel
 
-## Under development
+## [Under development]
 
-- Changed: redone to composer-config-plugin
-- Added stock module
-- Fixed composer.json requires
-- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
-- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
-- Added favicon.ico at frontend and backend
-- Removed excessive .gitignores
-- Added: gitignore for yii
-- Added proper gitignores for runtime, web and assets
-- Removed domain module
-- Added basics
+- Changed: redone to composer-config-plugin ([sol@hiqdev.com], [d.naumenko.a@gmail.com])
+- Added stock module ([sol@hiqdev.com])
+- Fixed composer.json requires ([sol@hiqdev.com])
+- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php ([sol@hiqdev.com])
+- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte ([sol@hiqdev.com])
+- Added favicon.ico at frontend and backend ([sol@hiqdev.com])
+- Removed excessive .gitignores ([sol@hiqdev.com])
+- Added: gitignore for yii ([sol@hiqdev.com])
+- Added proper gitignores for runtime, web and assets ([sol@hiqdev.com])
+- Removed domain module ([sol@hiqdev.com])
+- Added basics ([sol@hiqdev.com])
 
-## Development started 2015-08-17
+## [Development started] - 2015-08-17
 
+[Under development]: https://github.com/advancedhosters/hipanel/releases
