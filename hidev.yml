@@ -5,8 +5,10 @@ package:
     headline:       AdvancedHosters HiPanel
     homepage:       https://advancedhosters.com/
     keywords:       advanced hosters, hipanel, control panel, hosting, domains
-    namespace:      adavancedhosters\hipanel
     description:    |
-        [HiPanel](http://hipanel.com) is next generation control panel for hosting, domains and more.
+        [HiPanel] is next generation control panel for hosting, domains and more.
 
-        This package is HiPanel build for [AHnames](https://ahnames.com) domain registrator.
+        This package is HiPanel build for [AHnames] domain registrator.
+
+        [HiPanel]: http://hipanel.com
+        [AHnames]: https://ahnames.com
