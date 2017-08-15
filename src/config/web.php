@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2015-2017, AdvancedHosters (https://advancedhosters.com/)
  */
 
-
 return [
     'container' => [
         'definitions' => [
@@ -16,6 +15,6 @@ return [
         ],
         'singletons' => [
             \hipanel\modules\finance\models\ServerResourceTypesProviderInterface::class => \advancedhosters\hipanel\server\ServerResourceTypesProvider::class
-        ]
-    ]
+        ],
+    ],
 ];
