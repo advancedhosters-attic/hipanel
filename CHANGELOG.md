@@ -2,18 +2,24 @@
 
 ## [Under development]
 
-- Changed: redone to composer-config-plugin ([sol@hiqdev.com], [d.naumenko.a@gmail.com])
-- Added stock module ([sol@hiqdev.com])
-- Fixed composer.json requires ([sol@hiqdev.com])
-- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php ([sol@hiqdev.com])
-- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte ([sol@hiqdev.com])
-- Added favicon.ico at frontend and backend ([sol@hiqdev.com])
-- Removed excessive .gitignores ([sol@hiqdev.com])
-- Added: gitignore for yii ([sol@hiqdev.com])
-- Added proper gitignores for runtime, web and assets ([sol@hiqdev.com])
-- Removed domain module ([sol@hiqdev.com])
-- Added basics ([sol@hiqdev.com])
+- Added server resources specifics ([@SilverFire])
+- Fixed dependencies: assets, omnipay, `hipanel-module-dns` ([@hiqsol], [@SilverFire])
+- Changed: redone to composer-config-plugin ([@hiqsol], [@SilverFire])
+- Added stock module ([@hiqsol])
+- Fixed composer.json requires ([@hiqsol])
+- Added use of params.php from yii2-asset-advancedhosters for common/config/params.php ([@hiqsol])
+- Added ProjectAsset with css for logo instead of hipanel-theme-adminlte ([@hiqsol])
+- Added favicon.ico at frontend and backend ([@hiqsol])
+- Removed excessive .gitignores ([@hiqsol])
+- Added: gitignore for yii ([@hiqsol])
+- Added proper gitignores for runtime, web and assets ([@hiqsol])
+- Removed domain module ([@hiqsol])
+- Added basics ([@hiqsol])
 
 ## [Development started] - 2015-08-17
 
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
 [Under development]: https://github.com/advancedhosters/hipanel/releases

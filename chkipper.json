@@ -1,0 +1,17 @@
+{
+    "name": "advancedhosters/hipanel",
+    "authors": {
+        "hiqsol": {
+            "name": "Andrii Vasyliev",
+            "email": "sol@hiqdev.com",
+            "github": "https://github.com/hiqsol",
+            "homepage": "https://hipanel.com/"
+        },
+        "SilverFire": {
+            "name": "Dmitry Naumenko",
+            "email": "d.naumenko.a@gmail.com",
+            "github": "https://github.com/SilverFire",
+            "homepage": "http://silverfire.me/"
+        }
+    }
+}

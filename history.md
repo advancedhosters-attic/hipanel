@@ -2,73 +2,82 @@
 
 ## [Under development]
 
-    - [07c4c38] 2017-08-15 renamed `hidev.yml` [sol@hiqdev.com]
-    - [7bfe621] 2017-06-26 Added ServerResourceTypesProvider, implemented ServerTariffCalculator::getCalculations() [d.naumenko.a@gmail.com]
-    - [d703ef7] 2017-06-23 Added ServerTariffCalculator [d.naumenko.a@gmail.com]
-    - [634b53e] 2017-02-15 removed requiring omnipay, moved to hipanel-module-finance [sol@hiqdev.com]
-    - [9a090fd] 2017-02-07 emptied hisite config: removed use of assets [sol@hiqdev.com]
-    - [cd53739] 2017-02-06 fixed dependencies for this package to be generally available for advancedhosters resellers [sol@hiqdev.com]
-    - [f9bbb8b] 2017-01-05 Added mailing module [d.naumenko.a@gmail.com]
-    - [6638ffc] 2016-12-15 fixed typo [d.naumenko.a@gmail.com]
-    - [1fe8732] 2016-12-15 Added Documetns module to composer.json [d.naumenko.a@gmail.com]
-    - [828910f] 2016-11-16 removed require michelf/php-smartypants [sol@hiqdev.com]
-    - [0b335d5] 2016-08-25 moved require `advancedhosters/yii2-asset-advancedhosters` bottom [sol@hiqdev.com]
-    - [f78f9ec] 2016-07-13 added omnipay requires [sol@hiqdev.com]
-    - [f1729ee] 2016-06-29 Added news module [d.naumenko.a@gmail.com]
-    - [79c32aa] 2016-06-16 csfixed [sol@hiqdev.com]
-    - [bc72be6] 2016-06-16 inited empty tests [sol@hiqdev.com]
-    - [00a3942] 2016-06-16 changed license to proprietary [sol@hiqdev.com]
-    - [c701ea1] 2016-06-16 allowed build failure for PHP 5.5 [sol@hiqdev.com]
-    - [9de7fe8] 2016-06-15 used `advancedhosters/hidev-advancedhosters` [sol@hiqdev.com]
-    - [ce3405b] 2016-06-15 used `bower-asset/elementquery` instead of manual repository [sol@hiqdev.com]
-    - [4237aec] 2016-06-15 tidying up kartik widgets [sol@hiqdev.com]
-    - [0110754] 2016-06-15 - require yii2-pluginmanager [sol@hiqdev.com]
-    - [898d58c] 2016-05-19 fixed typo [sol@hiqdev.com]
-    - [1b0cce3] 2016-05-19 fixed namespace [sol@hiqdev.com]
+- Added server resources specifics
+    - [7bfe621] 2017-06-26 Added ServerResourceTypesProvider, implemented ServerTariffCalculator::getCalculations() [@SilverFire]
+    - [d703ef7] 2017-06-23 Added ServerTariffCalculator [@SilverFire]
+- Fixed dependencies: assets, omnipay, `hipanel-module-dns`
+    - [20748d1] 2017-08-15 + require `hipanel-module-dns` [@hiqsol]
+    - [0212b3c] 2017-08-15 csfixed [@hiqsol]
+    - [ed49e6a] 2017-08-15 renamed `history.md` [@hiqsol]
+    - [07c4c38] 2017-08-15 renamed `hidev.yml` [@hiqsol]
+    - [634b53e] 2017-02-15 removed requiring omnipay, moved to hipanel-module-finance [@hiqsol]
+    - [9a090fd] 2017-02-07 emptied hisite config: removed use of assets [@hiqsol]
+    - [cd53739] 2017-02-06 fixed dependencies for this package to be generally available for advancedhosters resellers [@hiqsol]
+    - [f9bbb8b] 2017-01-05 Added mailing module [@SilverFire]
+    - [6638ffc] 2016-12-15 fixed typo [@SilverFire]
+    - [1fe8732] 2016-12-15 Added Documetns module to composer.json [@SilverFire]
+    - [828910f] 2016-11-16 removed require michelf/php-smartypants [@hiqsol]
+    - [0b335d5] 2016-08-25 moved require `advancedhosters/yii2-asset-advancedhosters` bottom [@hiqsol]
+    - [f78f9ec] 2016-07-13 added omnipay requires [@hiqsol]
+    - [f1729ee] 2016-06-29 Added news module [@SilverFire]
+    - [79c32aa] 2016-06-16 csfixed [@hiqsol]
+    - [bc72be6] 2016-06-16 inited empty tests [@hiqsol]
+    - [00a3942] 2016-06-16 changed license to proprietary [@hiqsol]
+    - [c701ea1] 2016-06-16 allowed build failure for PHP 5.5 [@hiqsol]
+    - [9de7fe8] 2016-06-15 used `advancedhosters/hidev-advancedhosters` [@hiqsol]
+    - [ce3405b] 2016-06-15 used `bower-asset/elementquery` instead of manual repository [@hiqsol]
+    - [4237aec] 2016-06-15 tidying up kartik widgets [@hiqsol]
+    - [0110754] 2016-06-15 - require yii2-pluginmanager [@hiqsol]
+    - [898d58c] 2016-05-19 fixed typo [@hiqsol]
+    - [1b0cce3] 2016-05-19 fixed namespace [@hiqsol]
 - Changed: redone to composer-config-plugin
-    - [0f958bf] 2016-05-19 csfixed [sol@hiqdev.com]
-    - [29363be] 2016-05-19 rehideved [sol@hiqdev.com]
-    - [243a7d1] 2016-05-19 fixing dependencies [sol@hiqdev.com]
-    - [88cd1fa] 2016-05-19 removed common, console, frontend, backend [sol@hiqdev.com]
-    - [dfe82db] 2016-02-29 Temporary daterangepicker dependency removed [d.naumenko.a@gmail.com]
-    - [cf74a5e] 2016-02-24 Added temporary daterangepicker dependency [d.naumenko.a@gmail.com]
-    - [b8e2d3c] 2016-02-02 composer.json - added yii2 unstable dependency [d.naumenko.a@gmail.com]
-    - [30481f0] 2015-12-09 Updated composer.json [d.naumenko.a@gmail.com]
+    - [0f958bf] 2016-05-19 csfixed [@hiqsol]
+    - [29363be] 2016-05-19 rehideved [@hiqsol]
+    - [243a7d1] 2016-05-19 fixing dependencies [@hiqsol]
+    - [88cd1fa] 2016-05-19 removed common, console, frontend, backend [@hiqsol]
+    - [dfe82db] 2016-02-29 Temporary daterangepicker dependency removed [@SilverFire]
+    - [cf74a5e] 2016-02-24 Added temporary daterangepicker dependency [@SilverFire]
+    - [b8e2d3c] 2016-02-02 composer.json - added yii2 unstable dependency [@SilverFire]
+    - [30481f0] 2015-12-09 Updated composer.json [@SilverFire]
 - Added stock module
-    - [2e635ae] 2015-09-09 + stock module [sol@hiqdev.com]
+    - [2e635ae] 2015-09-09 + stock module [@hiqsol]
 - Fixed composer.json requires
-    - [9cac0f7] 2015-09-21 - require 2amigos/yii2-editable-widget [sol@hiqdev.com]
-    - [4a45c43] 2015-08-18 fixed license to No license [sol@hiqdev.com]
-    - [b50eeec] 2015-08-18 fixed requires fr theme and assets [sol@hiqdev.com]
-    - [af46e7b] 2015-09-09 fixed requires in composer.json [sol@hiqdev.com]
+    - [9cac0f7] 2015-09-21 - require 2amigos/yii2-editable-widget [@hiqsol]
+    - [4a45c43] 2015-08-18 fixed license to No license [@hiqsol]
+    - [b50eeec] 2015-08-18 fixed requires fr theme and assets [@hiqsol]
+    - [af46e7b] 2015-09-09 fixed requires in composer.json [@hiqsol]
 - Added use of params.php from yii2-asset-advancedhosters for common/config/params.php
-    - [bd52636] 2015-08-31 used params.php from yii2-asset-advancedhosters for common/config/params.php [sol@hiqdev.com]
-    - [fb67e91] 2015-08-23 + `.php_cs` [sol@hiqdev.com]
-    - [964b341] 2015-08-18 php-cs-fixed [sol@hiqdev.com]
-    - [2c3c420] 2015-08-18 + orgName and orgUrl params [sol@hiqdev.com]
+    - [bd52636] 2015-08-31 used params.php from yii2-asset-advancedhosters for common/config/params.php [@hiqsol]
+    - [fb67e91] 2015-08-23 + `.php_cs` [@hiqsol]
+    - [964b341] 2015-08-18 php-cs-fixed [@hiqsol]
+    - [2c3c420] 2015-08-18 + orgName and orgUrl params [@hiqsol]
 - Added ProjectAsset with css for logo instead of hipanel-theme-adminlte
-    - [464eaf2] 2015-08-24 + css for logo [sol@hiqdev.com]
-    - [d9ec49d] 2015-08-23 - require `*/hipane-theme-adminlte` [sol@hiqdev.com]
-    - [c173e9d] 2015-08-23 + ProjectAsset [sol@hiqdev.com]
+    - [464eaf2] 2015-08-24 + css for logo [@hiqsol]
+    - [d9ec49d] 2015-08-23 - require `*/hipane-theme-adminlte` [@hiqsol]
+    - [c173e9d] 2015-08-23 + ProjectAsset [@hiqsol]
 - Added favicon.ico at frontend and backend
-    - [1a8cd5c] 2015-08-18 + favicon [sol@hiqdev.com]
-    - [0d2f1f2] 2015-08-23 + favicon at backend [sol@hiqdev.com]
+    - [1a8cd5c] 2015-08-18 + favicon [@hiqsol]
+    - [0d2f1f2] 2015-08-23 + favicon at backend [@hiqsol]
 - Removed excessive .gitignores
-    - [ec7fe80] 2015-08-23 - excessive gitignores [sol@hiqdev.com]
-    - [22c631b] 2015-08-23 - excessive gitignores at configs [sol@hiqdev.com]
+    - [ec7fe80] 2015-08-23 - excessive gitignores [@hiqsol]
+    - [22c631b] 2015-08-23 - excessive gitignores at configs [@hiqsol]
 - Added: gitignore for yii
-    - [f821c10] 2015-08-18 + gitignore yii [sol@hiqdev.com]
+    - [f821c10] 2015-08-18 + gitignore yii [@hiqsol]
 - Added proper gitignores for runtime, web and assets
-    - [18d7a61] 2015-08-18 improved gitignores to not ignore .gitignore [sol@hiqdev.com]
-    - [6aec721] 2015-08-18 + necessary empty dirs for frontend and backend web [sol@hiqdev.com]
-    - [6b3fbc3] 2015-08-18 + necessary empty dirs for runtime and assets [sol@hiqdev.com]
+    - [18d7a61] 2015-08-18 improved gitignores to not ignore .gitignore [@hiqsol]
+    - [6aec721] 2015-08-18 + necessary empty dirs for frontend and backend web [@hiqsol]
+    - [6b3fbc3] 2015-08-18 + necessary empty dirs for runtime and assets [@hiqsol]
 - Removed domain module
-    - [f4c06c7] 2015-08-18 - domain module [sol@hiqdev.com]
+    - [f4c06c7] 2015-08-18 - domain module [@hiqsol]
 - Added basics
-    - [be9f961] 2015-08-17 inited [sol@hiqdev.com]
+    - [be9f961] 2015-08-17 inited [@hiqsol]
 
 ## [Development started] - 2015-08-17
 
+[@hiqsol]: https://github.com/hiqsol
+[sol@hiqdev.com]: https://github.com/hiqsol
+[@SilverFire]: https://github.com/SilverFire
+[d.naumenko.a@gmail.com]: https://github.com/SilverFire
 [0f958bf]: https://github.com/advancedhosters/hipanel/commit/0f958bf
 [29363be]: https://github.com/advancedhosters/hipanel/commit/29363be
 [243a7d1]: https://github.com/advancedhosters/hipanel/commit/243a7d1
@@ -123,3 +132,6 @@
 [898d58c]: https://github.com/advancedhosters/hipanel/commit/898d58c
 [1b0cce3]: https://github.com/advancedhosters/hipanel/commit/1b0cce3
 [Under development]: https://github.com/advancedhosters/hipanel/releases
+[20748d1]: https://github.com/advancedhosters/hipanel/commit/20748d1
+[0212b3c]: https://github.com/advancedhosters/hipanel/commit/0212b3c
+[ed49e6a]: https://github.com/advancedhosters/hipanel/commit/ed49e6a
