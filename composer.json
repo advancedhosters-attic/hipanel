@@ -40,7 +40,6 @@
         "hiqdev/hipanel-module-document": "*@dev",
         "hiqdev/hipanel-module-stock": "*@dev",
         "hiqdev/hipanel-module-mailing": "*@dev",
-        "hiqdev/hipanel-mrdp": "*@dev",
         "hiqdev/hisite-module-news": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
         "hiqdev/yii2-theme-adminlte": "<2.0 || dev-master"
