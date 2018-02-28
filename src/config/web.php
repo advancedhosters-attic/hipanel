@@ -9,6 +9,14 @@
  */
 
 return [
+    'modules' => [
+        'language' => [
+            'languages' => [
+                'en' => 'English',
+                'ru' => 'Русский',
+            ],
+        ],
+    ],
     'container' => [
         'definitions' => [
             \hipanel\modules\finance\logic\ServerTariffCalculatorInterface::class => \advancedhosters\hipanel\cart\ServerTariffCalculator::class,
