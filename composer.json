@@ -32,6 +32,7 @@
     "require": {
         "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-client": "*@dev",
+        "hiqdev/hipanel-client-debt": "<2.0 || dev-master",
         "hiqdev/hipanel-module-ticket": "*@dev",
         "hiqdev/hipanel-module-server": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
