@@ -8,7 +8,6 @@
  * @copyright Copyright (c) 2015-2017, AdvancedHosters (https://advancedhosters.com/)
  */
 
-
 error_reporting(E_ALL & ~E_NOTICE);
 
 $bootstrap = __DIR__ . '/../src/_bootstrap.php';

@@ -47,11 +47,13 @@
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
-        "advancedhosters/hidev-advancedhosters": "<2.0"
+        "advancedhosters/hidev-advancedhosters": "<2.0",
+        "codeception/codeception": "*"
     },
     "autoload": {
         "psr-4": {
-            "advancedhosters\\hipanel\\": "src"
+            "advancedhosters\\hipanel\\": "src",
+            "advancedhosters\\hipanel\\tests": "src"
         }
     },
     "extra": {
