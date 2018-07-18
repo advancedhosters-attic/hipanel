@@ -20,6 +20,11 @@ class PriceCest extends BasePriceCest
      */
     private $templateName;
 
+    public function _before(Manager $I)
+    {
+        $this->ensureIHaveTestTemplate($I);
+    }
+
     /**
      * @return array of types that should be included in template plan
      *
@@ -47,13 +52,6 @@ class PriceCest extends BasePriceCest
      */
     public function ensureICanCreateTemplatePlan(Manager $I, Example $example): void
     {
-        if (!$this->templateName) {
-            $this->templateName = uniqid('TemplatePlan', true);
-            $this->id = $this->createPlan($I, $this->templateName, 'Template');
-            $I->needPage(Url::to(['@plan/view', 'id' => $this->id]));
-            $I->see('No prices found');
-        }
-
         $page = new PriceCreatePage($I, $this->id);
         $page->openModal();
         $page->choosePriceType($example[0]);
@@ -63,12 +61,18 @@ class PriceCest extends BasePriceCest
         $page->seeRandomPrices();
     }
 
-    protected function suggestedPricesOptionsProvider(): array
+    private function ensureIHaveTestTemplate(Manager $I): void
     {
-        if (empty($this->templateName)) {
-            throw new \RuntimeException('Template plan must be created first');
+        if (!$this->templateName) {
+            $this->templateName = uniqid('TemplatePlan', true);
+            $this->id = $this->createPlan($I, $this->templateName, 'Template');
+            $I->needPage(Url::to(['@plan/view', 'id' => $this->id]));
+            $I->see('No prices found');
         }
+    }
 
+    protected function suggestedPricesOptionsProvider(Manager $I): array
+    {
         return [
             [
                 'type' => 'Server',
