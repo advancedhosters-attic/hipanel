@@ -53,7 +53,7 @@
     "autoload": {
         "psr-4": {
             "advancedhosters\\hipanel\\": "src",
-            "advancedhosters\\hipanel\\tests": "tests"
+            "advancedhosters\\hipanel\\tests\\": "tests"
         }
     },
     "extra": {
