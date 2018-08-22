@@ -149,7 +149,7 @@ class PriceCest extends BasePriceCest
                 'type' => 'Server',
                 'templateName' => $this->templateName,
                 'priceTypes' => ['Main prices', 'Parts prices'],
-                'object' => 'DS5000',
+                'object' => 'TEST01',
             ],
             [
                 'type' => 'vCDN',
