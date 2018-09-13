@@ -9,6 +9,7 @@ use hipanel\modules\finance\tests\acceptance\manager\PriceCest as BasePriceCest;
 use hipanel\tests\_support\Page\IndexPage;
 use hipanel\tests\_support\Page\Widget\Input\Dropdown;
 use hipanel\tests\_support\Page\Widget\Input\Input;
+use hipanel\tests\_support\Page\Widget\Input\Select2;
 use hipanel\tests\_support\Step\Acceptance\Manager;
 
 /**
@@ -39,21 +40,21 @@ class PriceCest extends BasePriceCest
         $I->login();
         $I->needPage(Url::to('@price'));
         $I->see('Price', 'h1');
-        $this->ensureICanSeeAdvancedSearchBox();
+        $this->ensureICanSeeAdvancedSearchBox($I);
         $this->ensureICanSeeBulkBillSearchBox();
     }
 
-    private function ensureICanSeeAdvancedSearchBox()
+    private function ensureICanSeeAdvancedSearchBox(Manager $I)
     {
         $this->index->containsFilters([
-            new Input('Tariff plan buyer'),
-            new Input('Tariff plan owner'),
-            new Input('Tariff plan name'),
-            new Input('Object name'),
-            new Input('Group model name'),
-            new Input('Model partno'),
-            new Input('Price'),
-            (new Dropdown('pricesearch-type'))->withItems([
+            Input::asAdvancedSearch($I, 'Tariff plan buyer'),
+            Input::asAdvancedSearch($I, 'Tariff plan owner'),
+            Input::asAdvancedSearch($I, 'Tariff plan name'),
+            Input::asAdvancedSearch($I, 'Object name'),
+            Input::asAdvancedSearch($I, 'Group model name'),
+            Input::asAdvancedSearch($I, 'Model partno'),
+            Input::asAdvancedSearch($I, 'Price'),
+            (Dropdown::asAdvancedSearch($I,'Type'))->withItems([
                 'Monthly fee',
                 'Server traffic monthly fee',
                 'IP addresses monthly fee',
@@ -76,7 +77,7 @@ class PriceCest extends BasePriceCest
                 'Support time',
                 'Quantity',
             ]),
-            new Input('Currency'),
+            Select2::asAdvancedSearch($I, 'Currency')
         ]);
     }
 
