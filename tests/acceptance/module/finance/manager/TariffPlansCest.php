@@ -27,16 +27,16 @@ class TariffPlansCest
         $I->needPage(Url::to('@plan'));
         $I->see('Tariff plans', 'h1');
         $I->seeLink('Create', Url::to('@plan/create'));
-        $this->ensureICanSeeAdvancedSearchBox();
+        $this->ensureICanSeeAdvancedSearchBox($I);
         $this->ensureICanSeeBulkBillSearchBox();
     }
 
-    private function ensureICanSeeAdvancedSearchBox()
+    private function ensureICanSeeAdvancedSearchBox(Manager $I)
     {
         $this->index->containsFilters([
-            new Input('Name Ilike'),
-            new Select2('Client'),
-            (new Dropdown('plansearch-type'))->withItems([
+            Input::asAdvancedSearch($I, 'Name Ilike'),
+            Select2::asAdvancedSearch($I,'Client'),
+            (Dropdown::asAdvancedSearch($I,'Type'))->withItems([
                 'Server',
                 'vCDN',
                 'pCDN',
@@ -46,7 +46,7 @@ class TariffPlansCest
                 'Client',
                 'Template',
             ]),
-            new Input('Statuses'),
+            Select2::asAdvancedSearch($I, 'Statuses'),
         ]);
     }
 
