@@ -9,7 +9,7 @@ use hipanel\modules\finance\tests\_support\Page\plan\Delete;
 use hipanel\modules\finance\tests\_support\Page\plan\Index;
 use hipanel\tests\_support\Step\Acceptance\Manager;
 
-class TariffPlansGroupingCest
+class GroupingTariffPlansCest
 {
     /**
      * @var string
