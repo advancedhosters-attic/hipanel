@@ -34,7 +34,7 @@ class TariffPlansCest
     private function ensureICanSeeAdvancedSearchBox(Manager $I)
     {
         $this->index->containsFilters([
-            Input::asAdvancedSearch($I, 'Name Ilike'),
+            Input::asAdvancedSearch($I, 'Name'),
             Select2::asAdvancedSearch($I,'Client'),
             (Dropdown::asAdvancedSearch($I,'Type'))->withItems([
                 'Server',
