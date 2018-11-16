@@ -54,12 +54,12 @@ class PriceCest extends BasePriceCest
             Input::asAdvancedSearch($I, 'Group model name'),
             Input::asAdvancedSearch($I, 'Model partno'),
             Input::asAdvancedSearch($I, 'Price'),
-            (Dropdown::asAdvancedSearch($I,'Type'))->withItems([
+            Dropdown::asAdvancedSearch($I, 'Type')->withItems([
                 'Monthly fee',
                 'Server traffic monthly fee',
                 'IP addresses monthly fee',
-                'Rack unit price in monthly fee',
-                'Server traffic overuse 95%',
+                'Rack unit monthly fee',
+                'Server traffic 95% overuse',
                 'Domain traffic',
                 'Number of domains',
                 'Backup disk usage monthly fee',
