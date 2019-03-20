@@ -2,10 +2,10 @@ actor: AcceptanceTester
 namespace: advancedhosters\hipanel\tests
 paths:
     tests: tests
-    log: "%COMMON_TESTS_LOCATION%/_output"
-    data: _data
-    support: _support
-    envs: _envs
+    output: "%COMMON_TESTS_LOCATION%/_output"
+    data: tests/_data
+    support: tests/_support
+    envs: tests/_envs
 extensions:
     enabled:
         - Codeception\Extension\RunFailed

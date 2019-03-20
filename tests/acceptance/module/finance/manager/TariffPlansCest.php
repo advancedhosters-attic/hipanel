@@ -58,7 +58,7 @@ class TariffPlansCest
         ]);
         $this->index->containsColumns([
             'Name',
-            'Client',
+            'Seller',
             'Type',
             'Status',
         ]);
