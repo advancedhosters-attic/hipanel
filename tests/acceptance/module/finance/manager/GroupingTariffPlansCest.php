@@ -26,7 +26,7 @@ class GroupingTariffPlansCest
         $this->fields = [
             'name' => uniqid(),
             'type' => 'Template',
-            'client' => 'hipanel_test_manager@hiqdev.com',
+            'client' => 'hipanel_test_manager',
             'currency' => 'USD',
             'note' => 'test note',
         ];
@@ -51,7 +51,7 @@ class GroupingTariffPlansCest
         $this->fields = [
             'name' => uniqid(),
             'type' => 'Server',
-            'client' => 'hipanel_test_manager@hiqdev.com',
+            'client' => 'hipanel_test_manager',
             'currency' => 'EUR',
             'note' => 'new_test_note',
         ];
