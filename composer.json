@@ -43,6 +43,7 @@
         "hiqdev/hipanel-module-mailing": "*@dev",
         "hiqdev/hisite-module-news": "*@dev",
         "hiqdev/hipanel-module-dashboard": "*@dev",
+        "hiqdev/hipanel-module-integrations": "*@dev",
         "hiqdev/yii2-theme-adminlte": "<2.0 || dev-master"
     },
     "require-dev": {
