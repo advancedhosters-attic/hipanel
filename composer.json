@@ -35,6 +35,7 @@
         "hiqdev/hipanel-client-debt": "<2.0 || dev-master",
         "hiqdev/hipanel-module-ticket": "*@dev",
         "hiqdev/hipanel-module-server": "*@dev",
+        "hiqdev/hipanel-server-order": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
         "hiqdev/hipanel-module-hosting": "*@dev",
         "hiqdev/hipanel-module-dns": "*@dev",
