@@ -9,7 +9,7 @@ class SidebarMenu extends Menu
 {
     public function items()
     {
-        $isVisible = !Yii::$app->user->can('role:client');
+        $isVisible = true;
 
         return [
             'cloud_servers' => [
