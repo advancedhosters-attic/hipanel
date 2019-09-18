@@ -10,7 +10,7 @@ class SidebarMenu extends Menu
     public function items()
     {
         $isVisible = true;
-        $linkOptions = [
+        $targetBlank = [
             'target'    => '_blank',
             'rel'       => 'noopener noreferrer',
         ];
@@ -21,35 +21,35 @@ class SidebarMenu extends Menu
                 'url' => 'https://websa.advancedhosting.com/servers',
                 'icon' => 'fa-cloud',
                 'visible' => $isVisible,
-                'linkOptions' => $linkOptions,
+                'linkOptions' => $targetBlank,
             ],
             'cloud_storage' => [
                 'label' => Yii::t('hipanel', 'Cloud Storage'),
                 'url' => 'https://websa.advancedhosting.com/bucketList',
                 'icon' => 'fa-cloud-upload',
                 'visible' => $isVisible,
-                'linkOptions' => $linkOptions,
+                'linkOptions' => $targetBlank,
             ],
             'video_cdn' => [
                 'label' => Yii::t('hipanel', 'Video CDN'),
                 'url' => 'https://vcp.advancedhosting.com/dashboard',
                 'icon' => 'fa-video-camera',
                 'visible' => $isVisible,
-                'linkOptions' => $linkOptions,
+                'linkOptions' => $targetBlank,
             ],
             'anycast_cdn' => [
                 'label' => Yii::t('hipanel', 'Anycast CDN'),
                 'url' => 'https://websa.advancedhosting.com/cdn',
                 'icon' => 'fa-globe',
                 'visible' => $isVisible,
-                'linkOptions' => $linkOptions,
+                'linkOptions' => $targetBlank,
             ],
             'anycast_dns' => [
                 'label' => Yii::t('hipanel', 'Anycast DNS'),
                 'url' => 'https://websa.advancedhosting.com/anycastns',
                 'icon' => 'fa-globe',
                 'visible' => $isVisible,
-                'linkOptions' => $linkOptions,
+                'linkOptions' => $targetBlank,
             ],
         ];
     }
