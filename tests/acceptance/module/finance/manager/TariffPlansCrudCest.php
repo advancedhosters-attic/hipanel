@@ -26,7 +26,7 @@ class TariffPlansCrudCest
         $this->fields = [
             'name' => uniqid(),
             'type' => 'Template',
-            'client' => 'hipanel_test_manager',
+            'client' => 'hipanel_test_reseller',
             'currency' => 'USD',
             'note' => 'test note',
         ];
@@ -51,7 +51,7 @@ class TariffPlansCrudCest
         $this->fields = [
             'name' => uniqid(),
             'type' => 'Server',
-            'client' => 'hipanel_test_manager',
+            'client' => 'hipanel_test_reseller',
             'currency' => 'EUR',
             'note' => 'new_test_note',
         ];
