@@ -21,6 +21,9 @@ class GroupingTariffPlansCest
      */
     private $fields;
 
+    /**
+     * @param Manager $I
+     */
     public function ensureThatICanCreateTariffPlan(Manager $I)
     {
         $this->fields = [
@@ -46,6 +49,11 @@ class GroupingTariffPlansCest
         $search->ensurePlanCanBeFound($this->fields['name']);
     }
 
+    /**
+     * @depends ensureThatICanCreateTariffPlan
+     *
+     * @param Manager $I
+     */
     public function ensureThatICanUpdateTariffPlan(Manager $I)
     {
         $this->fields = [
@@ -60,6 +68,11 @@ class GroupingTariffPlansCest
         $this->ensureThatICanSeeTariffPlan($I);
     }
 
+    /**
+     * @depends ensureThatICanCreateTariffPlan
+     *
+     * @param Manager $I
+     */
     public function ensureThatICanDeleteTariffPlan(Manager $I)
     {
         (new Delete($I, null, $this->id))->deletePlan();
