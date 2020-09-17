@@ -21,9 +21,6 @@ class GroupingTariffPlansCest
      */
     private $fields;
 
-    /**
-     * @param Manager $I
-     */
     public function ensureThatICanCreateTariffPlan(Manager $I)
     {
         $this->fields = [
@@ -51,8 +48,6 @@ class GroupingTariffPlansCest
 
     /**
      * @depends ensureThatICanCreateTariffPlan
-     *
-     * @param Manager $I
      */
     public function ensureThatICanUpdateTariffPlan(Manager $I)
     {
@@ -70,8 +65,6 @@ class GroupingTariffPlansCest
 
     /**
      * @depends ensureThatICanCreateTariffPlan
-     *
-     * @param Manager $I
      */
     public function ensureThatICanDeleteTariffPlan(Manager $I)
     {
