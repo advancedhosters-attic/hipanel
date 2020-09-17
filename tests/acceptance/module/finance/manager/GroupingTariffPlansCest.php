@@ -46,12 +46,15 @@ class GroupingTariffPlansCest
         $search->ensurePlanCanBeFound($this->fields['name']);
     }
 
+    /**
+     * @depends ensureThatICanCreateTariffPlan
+     */
     public function ensureThatICanUpdateTariffPlan(Manager $I)
     {
         $this->fields = [
             'name' => uniqid(),
             'type' => 'Server',
-            'client' => 'hipanel_test_manager',
+            'client' => 'hipanel_test_reseller',
             'currency' => 'EUR',
             'note' => 'new_test_note',
         ];
@@ -60,6 +63,9 @@ class GroupingTariffPlansCest
         $this->ensureThatICanSeeTariffPlan($I);
     }
 
+    /**
+     * @depends ensureThatICanCreateTariffPlan
+     */
     public function ensureThatICanDeleteTariffPlan(Manager $I)
     {
         (new Delete($I, null, $this->id))->deletePlan();
