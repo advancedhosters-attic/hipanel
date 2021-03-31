@@ -37,6 +37,7 @@
         "hiqdev/hipanel-server-order": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
         "hiqdev/hipanel-module-hosting": "*@dev",
+        "hiqdev/hipanel-module-ipam": "*@dev",
         "hiqdev/hipanel-module-dns": "*@dev",
         "hiqdev/hipanel-module-document": "*@dev",
         "hiqdev/hipanel-module-stock": "*@dev",
