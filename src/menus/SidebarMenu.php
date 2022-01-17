@@ -31,7 +31,7 @@ class SidebarMenu extends Menu
                 'linkOptions' => $targetBlank,
             ],
             'video_cdn' => [
-                'label' => Yii::t('hipanel', 'Video CDN'),
+                'label' => Yii::t('hipanel', 'VideoCDN'),
                 'url' => 'https://vcp.advancedhosting.com/dashboard',
                 'icon' => 'fa-video-camera',
                 'visible' => $isVisible,

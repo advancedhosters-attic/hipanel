@@ -90,7 +90,7 @@ class PriceCest extends BasePriceCest
         return [
             ['Model groups'],
             ['Dedicated Server'],
-            ['vCDN'],
+            ['VideoCDN'],
             ['pCDN']
         ];
     }
@@ -131,7 +131,7 @@ class PriceCest extends BasePriceCest
                 'object' => 'TEST-DS-01',
             ],
             [
-                'type' => 'vCDN',
+                'type' => 'VideoCDN',
                 'templateName' => $this->templateName,
                 'priceTypes' => ['Main prices'],
                 'object' => 'vCDN-soltest',
