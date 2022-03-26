@@ -46,7 +46,7 @@
         "hiqdev/hipanel-module-dashboard": "*@dev",
         "hiqdev/hipanel-module-integrations": "*@dev",
         "hiqdev/hipanel-client-debt": "dev-master",
-        "hiqdev/yii2-theme-adminlte": "dev-master"
+        "hiqdev/yii2-theme-adminlte": "*@dev"
     },
     "require-dev": {
         "hiqdev/hidev-php": "<2.0",
