@@ -32,7 +32,6 @@ class PriceCest extends BasePriceCest
     public function _before(Manager $I)
     {
         $this->index = new IndexPage($I);
-        $this->ensureIHaveTestTemplate($I);
     }
 
     public function ensureIndexPageWorks(Manager $I)
@@ -42,6 +41,48 @@ class PriceCest extends BasePriceCest
         $I->see('Price', 'h1');
         $this->ensureICanSeeAdvancedSearchBox($I);
         $this->ensureICanSeeBulkBillSearchBox();
+    }
+
+    public function ensureIHaveTestTemplate(Manager $I): void
+    {
+        if (!$this->templateName) {
+            $this->templateName = uniqid('TemplatePlan', true);
+            $this->id = $this->createPlan($I, $this->templateName, 'Template');
+            $I->needPage(Url::to(['@plan/view', 'id' => $this->id]));
+            $I->see('No prices found');
+        }
+    }
+
+    /**
+     * @dataProvider templatePriceTypesProvider
+     * @param Manager $I
+     * @param Example $example
+     *
+     * @depends ensureIHaveTestTemplate
+     */
+    public function ensureICanCreateTemplatePlan(Manager $I, Example $example): void
+    {
+        $page = new PriceCreatePage($I, $this->id);
+        $page->openModal();
+        $page->choosePriceType($example[0]);
+        $page->proceedToCreation();
+        $page->fillRandomPrices('templateprice');
+        $page->saveForm();
+        $page->seeRandomPrices();
+    }
+
+    /**
+     * @dataProvider templatePriceTypesProvider
+     *
+     * @depends ensureICanCreateTemplatePlan
+     */
+    public function ensureICantCreatePricesForExistingTypesInTemplatePlan(Manager $I, Example $example): void
+    {
+        $page = new PriceCreatePage($I, $this->id);
+        $page->openModal();
+        $page->choosePriceType($example[0]);
+        $page->proceedToCreation();
+        $I->see('No price suggestions for this object');
     }
 
     private function ensureICanSeeAdvancedSearchBox(Manager $I)
@@ -93,32 +134,6 @@ class PriceCest extends BasePriceCest
             ['VideoCDN'],
             ['pCDN']
         ];
-    }
-
-    /**
-     * @dataProvider templatePriceTypesProvider
-     * @param Manager $I
-     * @param Example $example
-     */
-    public function ensureICanCreateTemplatePlan(Manager $I, Example $example): void
-    {
-        $page = new PriceCreatePage($I, $this->id);
-        $page->openModal();
-        $page->choosePriceType($example[0]);
-        $page->proceedToCreation();
-        $page->fillRandomPrices('templateprice');
-        $page->saveForm();
-        $page->seeRandomPrices();
-    }
-
-    private function ensureIHaveTestTemplate(Manager $I): void
-    {
-        if (!$this->templateName) {
-            $this->templateName = uniqid('TemplatePlan', true);
-            $this->id = $this->createPlan($I, $this->templateName, 'Template');
-            $I->needPage(Url::to(['@plan/view', 'id' => $this->id]));
-            $I->see('No prices found');
-        }
     }
 
     protected function suggestedPricesOptionsProvider(Manager $I): array
