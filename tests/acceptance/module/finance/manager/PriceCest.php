@@ -132,7 +132,6 @@ class PriceCest extends BasePriceCest
             ['Model groups'],
             ['Dedicated Server'],
             ['VideoCDN'],
-            ['pCDN']
         ];
     }
 
