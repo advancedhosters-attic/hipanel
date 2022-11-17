@@ -46,7 +46,7 @@
         "hiqdev/hipanel-module-dashboard": "*@dev",
         "hiqdev/hipanel-module-integrations": "*@dev",
         "hiqdev/hipanel-client-debt": "dev-master",
-        "advancedhosters/hipanel-module-costrpice": "*@dev",
+        "advancedhosters/hipanel-module-costprice": "*@dev",
         "hiqdev/yii2-theme-adminlte": "*@dev"
     },
     "require-dev": {
