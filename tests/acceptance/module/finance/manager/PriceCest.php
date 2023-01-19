@@ -95,7 +95,6 @@ class PriceCest extends BasePriceCest
             Input::asAdvancedSearch($I, 'Group model name'),
             Input::asAdvancedSearch($I, 'Model partno'),
             Input::asAdvancedSearch($I, 'Price'),
-            Dropdown::asAdvancedSearch($I, 'Type'),
             Select2::asAdvancedSearch($I, 'Currency'),
         ]);
     }
