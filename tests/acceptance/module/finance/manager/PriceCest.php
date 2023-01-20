@@ -147,7 +147,7 @@ class PriceCest extends BasePriceCest
                 'type' => 'VideoCDN',
                 'templateName' => $this->templateName,
                 'priceTypes' => ['Main prices'],
-                'object' => 'vCDN-soltest',
+                'object' => 'TEST vCDN Target 1',
             ],
         ];
     }
